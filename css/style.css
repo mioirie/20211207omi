@@ -1,0 +1,765 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+/* !!!!!!!!!!!!! END OF RESET CSS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.parent {
+  width: 1500px;
+}
+
+.header {
+  align-items: flex-end;
+  height: 70px;
+}
+
+.estra_logo-img {
+  width: 120px;
+  text-align: right;
+}
+
+.header-nav-list {
+  display: flex;
+  margin-left: 600px;
+}
+
+.header-nav-item {
+  list-style: none;
+  font-size: 20px;
+  margin-right: 100px;
+}
+
+.header-nav-item-link {
+  text-decoration: none;
+  color: #00277e;
+}
+
+.firstview {
+  text-align: right;
+  position: relative;
+}
+
+.copies {
+  position: absolute;
+  margin-top: -550px;
+}
+
+.copy {
+  font-family: "Gorditas", cursive;
+  font-family: "Indie Flower", cursive;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 70px;
+  color: rgb(179, 63, 102);
+  margin: 40px;
+  margin-bottom: 80px;
+}
+
+.copy2 {
+  font-family: "Gorditas", cursive;
+  font-family: "Indie Flower", cursive;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(179, 63, 102);
+  margin: 40px;
+}
+
+.font_test {
+  font-size: 70px;
+  color: rgb(27, 150, 137);
+}
+
+.font_test2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(27, 150, 137);
+}
+
+.copy3 {
+  font-size: 20px;
+  color: rgb(77, 67, 67);
+  margin: 40px;
+}
+
+/* 新着情報 */
+.news {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Newslogo {
+  font-family: "Gorditas", cursive;
+  font-family: "Indie Flower", cursive;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 20px;
+  color: rgb(179, 63, 102);
+  margin-left: 400px;
+  margin-top: 40px;
+}
+
+.sinchaku {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(77, 67, 67);
+  margin-top: 10px;
+  margin-left: 400px;
+  margin-bottom: 20px;
+}
+
+.newstable {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newstable tr {
+  border-top: 1px solid gray;
+  padding: 40px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+
+.newstext {
+  font-size: 20px;
+  color: rgb(77, 67, 67);
+  padding: 20px;
+}
+
+.news_btn {
+  font-size: 20px;
+  color: white;
+  width: 100px;
+  padding: 0px 10px;
+  background: rgb(179, 63, 102);
+  border-radius: 30px;
+}
+
+/*Technology*Coaching  */
+
+.blank1 {
+  height: 70px;
+}
+
+.about_parent {
+  background: rgb(241, 241, 241);
+  height: 400px;
+  margin: 40px;
+}
+
+.about {
+  text-align: center;
+  padding: 20px;
+}
+
+.aboutlogo {
+  font-family: "Gorditas", cursive;
+  font-family: "Indie Flower", cursive;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 20px;
+  color: rgb(179, 63, 102);
+}
+.aboutttl {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(77, 67, 67);
+  margin-top: 10px;
+}
+
+.abouttext {
+  display: flex;
+  text-align: center;
+  margin: 30px;
+}
+
+.abouttext1 {
+  padding-left: 200px;
+  width: 1200px;
+  margin: 30px;
+  font-size: 17px;
+  color: rgb(77, 67, 67);
+  text-align: left;
+}
+
+.aboutimg img {
+  width: 45%;
+}
+
+/* service */
+
+.blank2 {
+  height: 70px;
+}
+
+.service {
+  margin: 40px;
+  margin-left: 150px;
+}
+
+.servicelogo {
+  font-family: "Gorditas", cursive;
+  font-family: "Indie Flower", cursive;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 20px;
+  color: rgb(179, 63, 102);
+}
+.servicettl {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(77, 67, 67);
+  margin-top: 10px;
+}
+
+.servicegridclass {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* 教育事業 */
+
+.servicegrid {
+  display: grid;
+  grid-template-rows: 250px 250px;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* box1 */
+.box1 {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  background: rgb(179, 63, 102);
+}
+
+.serviceimg1 {
+  width: 15%;
+  height: auto;
+  justify-content: center;
+  margin-top: -450px;
+  margin-left: 330px;
+}
+
+.jigyou1 {
+  width: 400px;
+  height: 250px;
+  padding-top: 25px;
+  padding-left: 250px;
+}
+
+.jigyouttl_1 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.sample {
+  font-size: 15px;
+  margin-top: 10px;
+  color: white;
+  line-height: 20px;
+}
+
+/* box2 */
+.box2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background: rgb(192, 79, 135);
+}
+
+.serviceimg2 {
+  width: 15%;
+  height: auto;
+  justify-content: center;
+  margin-top: -550px;
+  margin-left: 780px;
+}
+
+.jigyou2 {
+  width: 300px;
+  height: 250px;
+  margin-top: -140px;
+  padding-left: 1025px;
+}
+
+.jigyouttl_2 {
+  font-size: 20px;
+  font-weight: bold;
+
+  color: white;
+}
+
+.sample {
+  font-size: 15px;
+  margin-top: 10px;
+  color: white;
+  line-height: 20px;
+}
+
+/* box3 */
+.box3 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background: rgb(187, 114, 150);
+}
+
+.serviceimg3 {
+  width: 15%;
+  height: auto;
+  justify-content: center;
+  margin-top: -80px;
+  margin-left: 780px;
+}
+
+.jigyou3 {
+  width: 300px;
+  height: 250px;
+  margin-top: -150px;
+  padding-left: 1025px;
+}
+
+.jigyouttl_3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.sample {
+  font-size: 15px;
+  margin-top: 10px;
+  color: white;
+  line-height: 20px;
+}
+
+/* Blog */
+
+.blank3 {
+  height: 70px;
+}
+
+.blog_parent {
+  background: rgb(241, 241, 241);
+  height: 750px;
+  margin: 40px;
+  position: relative;
+}
+
+.blog {
+  margin: 40px;
+  margin-left: 150px;
+  padding-top: 40px;
+}
+
+.bloglogo {
+  font-family: "Gorditas", cursive;
+  font-family: "Indie Flower", cursive;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 20px;
+  color: rgb(179, 63, 102);
+}
+.blogttl {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(77, 67, 67);
+  margin-top: 10px;
+}
+
+/* blogcard */
+.blogclass {
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blogimg img {
+  width: 100%;
+}
+
+.blogtopic {
+  width: 30%;
+  height: 450px;
+  border-radius: 20px;
+  margin-left: 0px;
+  background: white;
+}
+
+.blogtopic_logo {
+  padding: 5px 10px;
+  background: rgb(179, 63, 102);
+  margin-bottom: 0px;
+  display: inline-block;
+  color: white;
+  font-size: 14px;
+}
+
+.blogtopic_textbox {
+  width: 320px;
+  height: 60px;
+  padding-top: 15px;
+  margin: 0 auto;
+}
+
+.blogtext {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(77, 67, 67);
+  line-height: 30px;
+  text-align: left;
+}
+
+.blogtopic_footer {
+  margin: 50px 15px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blogdate {
+  font-size: 20px;
+  color: rgb(77, 67, 67);
+  text-align: left;
+}
+
+.blogtag {
+  font-size: 20px;
+  color: rgb(77, 67, 67);
+  text-align: right;
+}
+
+.backbtn {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(179, 63, 102);
+  background: white;
+  text-align: center;
+  padding: 10px;
+  padding-top: 15px;
+  border-radius: 50px;
+  border: 5px solid rgb(179, 63, 102);
+  height: 30px;
+  width: 150px;
+  margin: 0 auto;
+}
+
+/* 会社概要 */
+
+.blank4 {
+  height: 70px;
+}
+.company {
+  margin: 40px;
+  margin-left: 150px;
+  padding-top: 40px;
+}
+
+.companylogo {
+  font-family: "Gorditas", cursive;
+  font-family: "Indie Flower", cursive;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 20px;
+  color: rgb(179, 63, 102);
+  margin-left: 210px;
+}
+.companyttl {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(77, 67, 67);
+  margin-top: 10px;
+  margin-left: 210px;
+}
+
+/* 表 */
+.kaisyagaiyou {
+  border-collapse: collapse;
+  border: solid 0.5px rgb(77, 67, 67);
+  margin: 0 auto;
+}
+
+.k_th {
+  border: solid 0.5px rgb(77, 67, 67);
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(77, 67, 67);
+  background-color: rgb(241, 241, 241);
+  padding: 35px 200px 35px 40px;
+}
+
+.k_td {
+  border: solid 0.5px rgb(77, 67, 67);
+  text-align: left;
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(77, 67, 67);
+  background-color: white;
+  padding: 35px 250px 35px 40px;
+}
+
+/* 採用情報 */
+.blank5 {
+  height: 70px;
+}
+
+.recruit_interview_header {
+  display: flex;
+  justify-content: center;
+}
+
+.recruit {
+  position: relative;
+}
+
+.recruit_ttl {
+  position: absolute;
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.interview {
+  position: relative;
+}
+
+.interview_ttl {
+  position: absolute;
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* お問い合わせ */
+
+.blank6 {
+  height: 70px;
+}
+
+.otoiawase {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgb(77, 67, 67);
+  text-align: center;
+}
+
+.pinkline {
+  margin: 15px auto;
+  width: 3px;
+  height: 40px;
+  background: rgb(179, 63, 102);
+}
+
+.otoiawase_btn {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 80px;
+  background: linear-gradient(#cab7c0, #c04f87);
+  height: 80px;
+  width: 300px;
+  margin: 0 auto;
+  box-shadow: 0px 10px 0 rgb(179, 63, 102);
+}
+
+.mailbtn {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 28px;
+}
+
+.mail_icon {
+  width: 10%;
+  padding-right: 15px;
+}
+
+.blank7 {
+  height: 70px;
+}
+
+.footer_parent {
+  background: rgb(241, 241, 241);
+  width: 1420.05px;
+  height: 80px;
+  margin: 40px;
+}
+
+.footer_copy {
+  color: rgb(77, 67, 67);
+  text-align: center;
+  padding-top: 30px;
+}
