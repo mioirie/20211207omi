@@ -669,7 +669,10 @@ select {
 }
 
 .recruit {
-  background-image: url(img\recruit.png);
+  background-image: url(../img/recruit.png);
+  height: 300px;
+  width: 50%;
+  display: block;
   background-size: cover;
   position: relative;
 }
@@ -685,7 +688,10 @@ select {
 }
 
 .interview {
-  background-image: url(img\interview.png);
+  background-image: url(../img/interview.png);
+  height: 300px;
+  width: 50%;
+  display: block;
   background-size: cover;
   position: relative;
 }
