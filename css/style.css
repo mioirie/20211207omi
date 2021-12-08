@@ -666,12 +666,12 @@ select {
 
 .recruit_interview_header {
   display: flex;
-  justify-content: space-between;
 }
 
 .recruit {
+  background-image: url(img\recruit.png);
+  background-size: cover;
   position: relative;
-  width: 50%;
 }
 
 .recruit_ttl {
@@ -685,8 +685,9 @@ select {
 }
 
 .interview {
+  background-image: url(img\interview.png);
+  background-size: cover;
   position: relative;
-  width: 50%;
 }
 
 .interview_ttl {
